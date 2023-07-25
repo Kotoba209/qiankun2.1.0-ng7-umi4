@@ -1,0 +1,55 @@
+Arguments: 
+  D:\scoop\apps\nvm\current\nodejs\nodejs\node.exe D:\scoop\apps\nodejs\current\bin\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\fulia\AppData\Local\Temp\yarn--1690193027910-0.18423020686531588;C:\Users\fulia\AppData\Local\Yarn\Data\global\node_modules\.bin;C:\Users\fulia\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\fulia\AppData\Local\Yarn\bin;D:\scoop\apps\nvm\current\nodejs\libexec\lib\node_modules\npm\bin\node-gyp-bin;D:\scoop\apps\nvm\current\nodejs\lib\node_modules\npm\bin\node-gyp-bin;D:\scoop\apps\nvm\current\nodejs\nodejs\node_modules\npm\bin\node-gyp-bin;c:\Users\fulia\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;D:\Bandizip\;D:\Git\cmd;D:\Xftp\;D:\Xshell\;C:\Program Files\Java\jdk-1.8\bin;C:\Program Files\Java\jdk-1.8\jre\bin;D:\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin;D:\微信web开发者工具\dll;D:\scoop\apps\nvm\current\nodejs\nodejs;D:\scoop\apps\nodejs\current\bin;D:\scoop\apps\nodejs\current;D:\scoop\shims;C:\Users\fulia\AppData\Local\Microsoft\WindowsApps;C:\Users\fulia\AppData\Local\GitHubDesktop\bin;D:\Fiddler;c:\Users\fulia\AppData\Local\Programs\cursor\resources\app\bin;D:\nginx-1.24.0;D:\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.21.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.17.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "liang-fu <liang-fu@hnair.com>",
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "format": "prettier --cache --write .",
+      "prepare": "husky install",
+      "postinstall": "max setup",
+      "setup": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^5.0.1",
+      "@ant-design/pro-components": "^2.4.4",
+      "@umijs/max": "^4.0.72",
+      "antd": "^5.4.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.33",
+      "@types/react-dom": "^18.0.11",
+      "husky": "^8.0.3",
+      "lint-staged": "^13.2.0",
+      "prettier": "^2.8.7",
+      "prettier-plugin-organize-imports": "^3.2.2",
+      "prettier-plugin-packagejson": "^2.4.3",
+      "typescript": "^5.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
