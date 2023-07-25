@@ -21,7 +21,7 @@ const routes: Routes = [
         component: AboutComponent,
       },
       {
-        path: "micro/:id",
+        path: "micro-app/micro/empty/:id",
         component: EmptyComponent,
         // pathMatch: 'prefix'
       },
