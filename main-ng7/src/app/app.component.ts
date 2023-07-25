@@ -52,7 +52,7 @@ export class AppComponent implements OnInit {
         props: { brand: "qiankun", actions: state },
       },
     ]);
-    // setDefaultMountApp("/micro-child-app1"); // 默认挂载子应用
+    setDefaultMountApp("/main/micro-app/micro/empty/page1;data=123"); // 默认挂载子应用
   }
 
   ngAfterViewInit(): void {
